@@ -13,7 +13,10 @@ export default function SidebarDocs() {
   const bgColor = "linear-gradient(135deg, #868CFF 0%, #4318FF 100%)";
   const borderColor = useColorModeValue("white", "navy.800");
 
-  return (
+return (
+//   <>
+//   </>
+// )
     <Flex
       justify='center'
       direction='column'
@@ -22,7 +25,7 @@ export default function SidebarDocs() {
       borderRadius='30px'
       me='20px'
       position='relative'>
-      <Flex
+      {/* <Flex
         border='5px solid'
         borderColor={borderColor}
         bg='linear-gradient(135deg, #868CFF 0%, #4318FF 100%)'
@@ -64,9 +67,9 @@ export default function SidebarDocs() {
           Improve your development process and start doing more with Horizon UI
           PRO!
         </Text>
-      </Flex>
+      </Flex> */}
       <Link href='https://horizon-ui.com/pro'>
-        <Button
+        {/* <Button
           bg='whiteAlpha.300'
           _hover={{ bg: "whiteAlpha.200" }}
           _active={{ bg: "whiteAlpha.100" }}
@@ -77,8 +80,8 @@ export default function SidebarDocs() {
           minW='185px'
           mx='auto'>
           Upgrade to PRO
-        </Button>
+        </Button> */}
       </Link>
     </Flex>
   );
-}
+ }
